@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(168, 229, 252);
+    background-position: left 300;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: rgb(255, 234, 0);
+    border-style: none;
+
+    /*中央揃え*/
+    display: block;
+    margin: auto;
+}
+
+.title{
+    color: rgb(193, 118, 21);
+}

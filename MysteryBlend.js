@@ -63,7 +63,9 @@ MSButton.onclick = function(){
     anchor.setAttribute('data-text', 'ジャンル: ' + jResult 
                                    + '\n曲構成: ' + vResult 
                                    + '\nノンセクション: ' + nResult 
-                                   + '\n');
+                                   + '\n'
+                                   + 'https://ueno-8-ueno.github.io/MysteryBlend-Simulator/MysteryBlend.html'
+                                   + '\n\n');
 
     anchor.innerText = 'Tweet #MysteryBlendシミュレーター';
     tweetDivided.appendChild(anchor);

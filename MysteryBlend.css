@@ -6,17 +6,93 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
 button {
     padding: 5px 20px;
     background-color: rgb(255, 234, 0);
-    border-style: none;
 
     /*中央揃え*/
     display: block;
     margin: auto;
 }
-
 .title{
     color: rgb(193, 118, 21);
+}
+
+.aboutHeader{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.aboutArea{
+    background-color: aliceblue;
+}
+
+.linkHeader{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.linkArea{
+    background-color: aliceblue;
+}
+
+.detailHeader{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.detailArea{
+    background-color: aliceblue;
+}
+
+.resultArea{
+    background-color: aliceblue;
+    width: 200px;
+    height: 400px;
+    border: solid 1px rgb(88,88,88);
+
+    /*中央揃え*/
+    display: block;
+    margin: auto;
+}
+.resultContents{
+    padding: 4px;
+}
+
+
+/*ダークモード*/
+@media (prefers-color-scheme: dark) {
+    body{
+      background-color: #000;
+      color: #fff;
+    }
+    button{
+        background-color: greenyellow;
+    }
+    .title{
+        color: rgb(0, 255, 174);
+    }
+
+    .aboutHeader{
+        background-color: rgb(76, 76, 76);
+    }
+    .aboutArea{
+        background-color: gray;
+    }
+
+    .linkHeader{
+        background-color: rgb(76, 76, 76);
+    }
+    .linkArea{
+        background-color: gray;
+    }
+
+    .detailHeader{
+        background-color: rgb(76, 76, 76);
+    }
+    .detailArea{
+        background-color: gray;
+    }
+
+    .resultArea{
+        background-color: gray;
+        border: solid 1px rgb(247, 247, 247);
+    }
 }

@@ -16,35 +16,42 @@
 </head>
 <body>
     <h1 class="title">Mystery Blendシミュレーター</h1>
-    <p>version 1.1.1</p>
+    <p>version 1.2.0</p>
 
-    <h3>概要</h3>
+    <div class="aboutArea">
+    <h3 class="aboutHeader">概要</h3>
     　ハードコアテクノレーベル「HARDCORE TANO*C」の某企画「Mystery Blend」のくじ引きを模したツールです。<br>
     　ジャンルや曲構成に悩んだり、曲のお題を出してほしい場合などにどうぞ！<br>
+    </div>
 
-    <h3>YouTubeリンク</h3>
+    <div class="linkArea">
+    <h3 class="linkHeader">YouTubeリンク</h3>
     <ul>
         <li><a href="https://youtu.be/GXX3n5I7i9s">夏コミで頒布されるCDをくじ引きで決めるぞ！</a></li>
         <li><a href="https://youtu.be/xgBozNNZ_uc">【伝説が帰ってきた】くじ引きのお題で作曲！神引き連発で驚きの結果に…！</a></li>
     </ul>
+    </div>
 
-    <h3>このツールの詳細</h3>
+    <div class="detailArea">
+    <h3 class="detailHeader">このツールの詳細</h3>
     <ol>
         <li>「くじを引く」ボタンを押すと「ジャンル」「曲構成」「ノンセクション」がランダムで選ばれます。「ノンセクション」は30種類以上!!</li>
         <li>引いた結果をツイートできます。</li>
         <li>いざ作曲!!!</li>
     </ol>
+    </div>
 
     <!--ボタン-->
     <button id="MysteryBlend">くじを引く</button>
 
-    <div id="result"></div>
-
-    <div id="genre"></div>
-
-    <div id="variety"></div>
-
-    <div id="noneSec"></div>
+    <div class="resultArea">
+        <div class="resultContents">
+        <div id="result"></div>
+        <div id="genre"></div>
+        <div id="variety"></div>
+        <div id="noneSec"></div>
+        </div>
+    </div>
 
     <!--ツイートエリア-->
     <div id="tweet-area"></div>
